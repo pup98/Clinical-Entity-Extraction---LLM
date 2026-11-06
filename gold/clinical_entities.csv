@@ -1,0 +1,101 @@
+File_Source,Age,Gender,Medication_Name,Dosage,Condition_Treated
+patient_001.txt,25,male,Metformin,500mg,twice daily for glycemic control
+patient_001.txt,25,male,Atorvastatin,10mg,once daily for cholesterol management
+patient_002.txt,67,Male,Fluticasone propionate,2 puffs daily,Asthma control
+patient_002.txt,67,Male,Montelukast,10mg,Allergies
+patient_003.txt,29,male,Fluticasone propionate,2 puffs daily,asthma
+patient_003.txt,29,male,Montelukast,10mg at bedtime,allergies
+patient_004.txt,69,male,Metformin,500mg twice daily,glycemic control
+patient_004.txt,69,male,Atorvastatin,10mg once daily,cholesterol management
+patient_005.txt,75,female,Naproxen,250mg as needed,joint pain for pain management
+patient_005.txt,75,female,Cholecalciferol,"60,000 IU weekly",vitamin D replacement
+patient_006.txt,37,male,Amlodipine,5mg,blood pressure
+patient_006.txt,37,male,Zolpidem,5mg,insomnia
+patient_007.txt,78,female,Escitalopram,10mg,anxiety
+patient_007.txt,78,female,Omeprazole,20mg,acid reflux
+patient_008.txt,48,Male,Escitalopram,10mg,Anxiety
+patient_008.txt,48,Male,Omeprazole,20mg,Acid Reflux
+patient_009.txt,69,Male,Metformin,500mg,glycemic control
+patient_009.txt,69,Male,Atorvastatin,10mg,cholesterol management
+patient_010.txt,30,male,Naproxen,250mg as needed,joint pain
+patient_010.txt,30,male,Cholecalciferol,"60,000 IU weekly",vitamin D replacement
+patient_011.txt,47,male,Escitalopram,10mg,Anxiety
+patient_011.txt,47,male,Omeprazole,20mg,Acid Reflux
+patient_012.txt,58,male,Naproxen,250mg as needed,joint pain
+patient_012.txt,58,male,Cholecalciferol,"60,000 IU weekly",vitamin D replacement
+patient_013.txt,67,male,Metformin,500mg,twice daily
+patient_013.txt,67,male,Atorvastatin,10mg,once daily
+patient_014.txt,49,female,Metformin,500mg twice daily,glycemic control
+patient_014.txt,49,female,Atorvastatin,10mg once daily,cholesterol management
+patient_015.txt,37,female,Naproxen,250mg as needed,joint pain for pain management
+patient_015.txt,37,female,Cholecalciferol,"60,000 IU weekly",vitamin D replacement
+patient_016.txt,39,male,Escitalopram,10mg,anxiety
+patient_016.txt,39,male,Omeprazole,20mg,acid reflux
+patient_017.txt,47,female,Fluticasone propionate,2 puffs daily,Asthma
+patient_017.txt,47,female,Montelukast,10mg,Allergies
+patient_018.txt,31,male,Naproxen,250mg as needed,joint pain
+patient_018.txt,31,male,Cholecalciferol,"60,000 IU weekly",vitamin D replacement
+patient_019.txt,48,female,Fluticasone propionate inhaler,2 puffs daily,asthma
+patient_019.txt,48,female,Montelukast,10mg at bedtime,allergies
+patient_020.txt,67,Male,Escitalopram,10mg,Anxiety
+patient_020.txt,67,Male,Omeprazole,20mg,Acid reflux (GERD)
+patient_021.txt,42,male,Naproxen,250mg as needed,joint pain
+patient_021.txt,42,male,Cholecalciferol,"60,000 IU weekly",vitamin D replacement
+patient_022.txt,56,female,Amlodipine,5mg,blood pressure
+patient_022.txt,56,female,Zolpidem,5mg,insomnia
+patient_023.txt,33,Male,Fluticasone propionate inhaler,2 puffs daily,Asthma control
+patient_023.txt,33,Male,Montelukast,10mg,Allergies
+patient_024.txt,62,male,Amlodipine,5mg daily,blood pressure
+patient_024.txt,62,male,Zolpidem,5mg,insomnia
+patient_025.txt,39,female,Fluticasone propionate inhaler,2 puffs daily,asthma
+patient_025.txt,39,female,Montelukast,10mg,allergies
+patient_026.txt,76,female,Metformin,500mg,glycemic control
+patient_026.txt,76,female,Atorvastatin,10mg,cholesterol management
+patient_027.txt,59,female,Fluticasone propionate,2 puffs daily,asthma
+patient_027.txt,59,female,Montelukast,10mg,allergies
+patient_028.txt,37,female,Escitalopram,10mg,anxiety
+patient_028.txt,37,female,Omeprazole,20mg,acid reflux
+patient_029.txt,57,female,Metformin,500mg twice daily,glycemic control
+patient_029.txt,57,female,Atorvastatin,10mg once daily,cholesterol management
+patient_030.txt,25,female,Metformin,500mg,twice daily for glycemic control
+patient_030.txt,25,female,Atorvastatin,10mg,once daily for cholesterol management
+patient_031.txt,28,male,Amlodipine,5mg,for blood pressure
+patient_031.txt,28,male,Zolpidem,5mg,for insomnia
+patient_032.txt,28,female,Escitalopram,10mg,anxiety
+patient_032.txt,28,female,Omeprazole,20mg,acid reflux
+patient_033.txt,70,Male,Naproxen,250mg as needed,Joint pain for pain management
+patient_033.txt,70,Male,Cholecalciferol,"60,000 IU weekly",Vitamin D replacement
+patient_034.txt,75,female,Amlodipine,5mg,blood pressure
+patient_034.txt,75,female,Zolpidem,5mg,insomnia
+patient_035.txt,46,female,Naproxen,250mg as needed,joint pain for pain management
+patient_035.txt,46,female,Cholecalciferol,"60,000 IU weekly",vitamin D replacement
+patient_036.txt,27,male,Amlodipine,5mg,blood pressure
+patient_036.txt,27,male,Zolpidem,5mg,insomnia
+patient_037.txt,58,male,Naproxen,250mg as needed,joint pain for pain management
+patient_037.txt,58,male,Cholecalciferol,"60,000 IU weekly",vitamin D replacement
+patient_038.txt,39,female,Fluticasone propionate inhaler,2 puffs daily,asthma
+patient_038.txt,39,female,Montelukast,10mg,allergies
+patient_039.txt,29,male,Naproxen,250mg as needed,joint pain for pain management
+patient_039.txt,29,male,Cholecalciferol,"60,000 IU weekly",vitamin D replacement
+patient_040.txt,49,male,Naproxen,250mg as needed,joint pain
+patient_040.txt,49,male,Cholecalciferol,"60,000 IU weekly",vitamin D replacement
+patient_041.txt,74,female,Naproxen,250mg as needed,joint pain
+patient_041.txt,74,female,Cholecalciferol,"60,000 IU weekly",vitamin D replacement
+patient_042.txt,33,female,Metformin,500mg twice daily,glycemic control
+patient_042.txt,33,female,Atorvastatin,10mg once daily,cholesterol management
+patient_043.txt,71,male,Amlodipine,5mg,blood pressure
+patient_043.txt,71,male,Zolpidem,5mg,insomnia
+patient_044.txt,27,Male,Metformin,500mg twice daily,glycemic control
+patient_044.txt,27,Male,Atorvastatin,10mg once daily,cholesterol management
+patient_045.txt,67,Male,Amlodipine,5mg,blood pressure
+patient_045.txt,67,Male,Zolpidem,5mg,insomnia
+patient_046.txt,63,male,Fluticasone propionate inhaler,2 puffs daily,asthma control
+patient_046.txt,63,male,Montelukast,10mg,allergies
+patient_047.txt,40,female,Metformin,500mg,twice daily for glycemic control
+patient_047.txt,40,female,Atorvastatin,10mg,once daily for cholesterol management
+patient_048.txt,66,male,Escitalopram,10mg,anxiety
+patient_048.txt,66,male,Omeprazole,20mg,acid reflux
+patient_049.txt,63,female,Amlodipine,5mg daily,blood pressure
+patient_049.txt,63,female,Zolpidem,5mg at bedtime,insomnia
+patient_050.txt,32,female,Metformin,500mg,glycemic control
+patient_050.txt,32,female,Atorvastatin,10mg,cholesterol management

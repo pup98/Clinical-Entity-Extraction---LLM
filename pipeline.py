@@ -6,7 +6,7 @@ from extractor import extract_clinical_entities
 def run_batch_pipeline(input_dir: str, output_path: str):
     processed_records = []
     
-    # Read files sequentially from your local directory
+    # Read files sequentially from bronze directory
     for filename in os.listdir(input_dir):
         if filename.endswith(".txt"):
             file_path = os.path.join(input_dir, filename)
@@ -23,11 +23,11 @@ def run_batch_pipeline(input_dir: str, output_path: str):
                 print(record_dict)
                 processed_records.append(record_dict)
             except Exception as e:
-                # Operational safeguarding: log failures without crashing the entire batch
+                # Catch the files which throw error
                 print(f"Failed to parse {filename} due to: {e}")
                 
     # 2. Flatten and normalize data for analytics
-    # Because 'medication' is a nested list, you can normalize it into a flat tabular format
+    # Because 'medication' is a nested list, we can normalize it into a flat tabular format
     flat_rows = []
     print('appended output:', processed_records)
     for record in processed_records:
@@ -42,7 +42,6 @@ def run_batch_pipeline(input_dir: str, output_path: str):
                 "Condition_Treated": med['condition']
             })
 
-    # 3. Save to highly compressed Parquet format
     if flat_rows:
         df = pd.DataFrame(flat_rows)
         df.to_parquet(f"{output_path}/clinical_entities.parquet", index=False)
@@ -52,5 +51,4 @@ def run_batch_pipeline(input_dir: str, output_path: str):
         print("No records successfully processed.")
 
 if __name__ == "__main__":
-    # Ensure you create a 'raw_notes' folder with text files before running
     run_batch_pipeline(input_dir="./bronze", output_path="./gold")
